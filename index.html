@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head>
+    <script src="./Librerias/p5.js"></script>
+    <script src="./Librerias/p5.dom.min.js"></script>
+    <script src="./Librerias/p5.sound.min.js"></script>
+<script src="./Librerias/./p5.play.js"></script>
+    <link rel="./Librerias/stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script> 
+      <script>
+       var firebaseConfig = {
+        apiKey: "AIzaSyCou3rLVQvBBlyllEeAezKgYsZdP7bpWzY",
+        authDomain: "base-de-datos-para-juegos.firebaseapp.com",
+        databaseURL: "https://base-de-datos-para-juegos-default-rtdb.firebaseio.com",
+        projectId: "base-de-datos-para-juegos",
+        storageBucket: "base-de-datos-para-juegos.appspot.com",
+        messagingSenderId: "837473425100",
+        appId: "1:837473425100:web:c76d7aeadb95a43dd59469"
+      };
+      
+      // Initialize Firebase
+      firebase = initializeApp(firebaseConfig);
+    </script>  
+
+</body></html>
